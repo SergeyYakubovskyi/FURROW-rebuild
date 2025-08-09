@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Presicav.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Calibre-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Calibre-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Calibre-Black.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Arial.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Furrow</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1754734869502"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1754734869502">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header fade" data-fls-header="" data-fls-header-scroll="" data-fls-header-scroll-show="">
+				<div class="header__container">
+					<div class="header__menu menu">
+						<svg class="menu__logo" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 131 23" fill="#000">
+							<path d="M0 .158v22.399h5.695V14.64h8.992V9.68H5.695V5.23h9.78V.158z"></path>
+							<path d="M18.117 13.4V.159h5.732V12.89c0 3.173 1.47 4.815 3.869 4.815 2.365 0 3.833-1.642 3.833-4.815V.158h5.732v13.279c0 6.128-3.761 9.484-9.565 9.484-5.803 0-9.6-3.356-9.6-9.52"></path>
+							<path d="M45.858 10.482h3.582c2.042 0 2.973-1.058 2.973-2.7 0-1.641-.931-2.699-2.973-2.699h-3.582v5.4zm0 4.67v7.405h-5.696V.158h9.887c4.729 0 7.989 2.737 7.989 7.625 0 3.392-1.684 5.727-4.371 6.748l5.158 8.026h-6.376l-4.585-7.405h-2.006z"></path>
+							<path d="M66.366 10.482h3.582c2.042 0 2.973-1.058 2.973-2.7 0-1.641-.931-2.699-2.973-2.699h-3.582v5.4zm0 4.67v7.405H60.67V.158h9.887c4.729 0 7.989 2.737 7.989 7.625 0 3.392-1.684 5.727-4.371 6.748l5.158 8.026h-6.376l-4.584-7.405h-2.007z"></path>
+							<path d="M118.682.158l3.366 13.17 3.046-13.17h5.802l-5.802 22.399h-5.267l-3.403-13.133-3.439 13.133h-5.266L101.952.158h5.875l3.082 13.17 3.402-13.17z"></path>
+							<path role="button" d="M98.045 11.358c0 4.162-3.313 7.536-7.4 7.536-4.088 0-7.4-3.374-7.4-7.536 0-4.162 3.312-7.536 7.4-7.536 4.087 0 7.4 3.374 7.4 7.536" fill="#EA281E"></path>
+						</svg>
+						<div class="menu__icon-wrapper icon-wrapper icon-wrapper--open">
+							<button type="button" data-fls-menu="" class="menu__icon icon-menu icon-menu--open sticky-item" aria-label="Open menu"></button>
+							<span>Projects</span>
+						</div>
+						<nav class="menu__body" aria-label="Main menu">
+							<div class="menu__container">
+								<div class="menu__top-action top-action">
+									<div class="top-action__lable">Projects</div>
+									<div class="top-action__icon-wrapper icon-wrapper icon-wrapper--close">
+										<button type="button" data-fls-menu="" class="top-action__icon icon-menu icon-menu--closed sticky-item" aria-label="Close menu"></button>
+										<span>Close</span>
+									</div>
+								</div>
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="#" class="menu__link --icon-arrow" data-video="files/easy.mp4">NOT HUMBLE</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link --icon-arrow" data-video="files/50-beaches.mp4">BLEEPING EASY</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link --icon-arrow" data-video="files/featured-video.mp4">MAKE IT ZERO</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link --icon-arrow" data-video="files/make-it-zero.mp4">IT TAKES AN ISLAND</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link --icon-arrow" data-video="files/50-beaches.mp4">50 BEACHES</a>
+									</li>
+								</ul>
+								<div class="menu__video-wrapper" id="videoWrapper">
+									<video class="menu__video" id="video" autoplay muted loop playsinline=""></video>
+								</div>
+								<div class="menu__bottom-action bottom-action">
+									<address class="bottom-action__contact" itemscope itemtype="http://schema.org/Organization">
+										<a href="mailto:info@furrow.studio" class="bottom-action__email" itemprop="email">info@furrow.studio</a>
+										<a href="tel:+19024170634" class="bottom-action__phone" itemprop="telephone">+1.902.417.0634</a>
+										<span class="bottom-action__copyright">© Furrow 2025</span>
+									</address>
+									<ul class="bottom-action__social-list">
+										<li class="bottom-action__social-item sticky-item">
+											<a href="#" class="bottom-action__social-link --icon-instagram" aria-label="Instagram">
+												<span class="visually-hidden">Instagram</span>
+											</a>
+										</li>
+										<li class="bottom-action__social-item sticky-item">
+											<a href="#" class="bottom-action__social-link --icon-facebook" aria-label="Facebook">
+												<span class="visually-hidden">Facebook</span>
+											</a>
+										</li>
+										<li class="bottom-action__social-item sticky-item">
+											<a href="#" class="bottom-action__social-link --icon-dribbble" aria-label="Dribbble">
+												<span class="visually-hidden">Dribbble</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<div class="custom-cursor" id="custom-cursor"></div>
+			<main class="page page--home">
+				<section class="hero">
+					<video class="hero__video" src="./files/banner-hero.mov" autoplay muted loop playsinline=""></video>
+					<canvas class="hero__canvas" id="hero-canvas"></canvas>
+					<h1 class="hero__title" data-fls-watcher="" data-fls-watcher-once="">
+						<span>DIG</span>
+						<span>DEEP</span>
+					</h1>
+				</section>
+				<section class="story">
+					<div class="story__container">
+						<div class="story__text" data-fls-watcher="" data-fls-watcher-once="">
+							<p>
+								Great stories don’t just happen—
+               they need to be uncovered. And we dig deep to discover the great stories that lie just below the surface.
+               Dirt under our
+               fingernails and all.
+							</p>
+						</div>
+						<div class="story__featured">
+							<a class="story__featured-wrapper" href="#" data-fls-watcher="" data-fls-watcher-once="">
+								<video class="story__video" src="./files/50-beaches.mp4" autoplay muted loop playsinline=""></video>
+								<div class="story__featured-content">
+									<div class="story__label">Featured Story</div>
+									<div class="story__meta">
+										<span class="story__client">PEI Seafood</span>
+										<span class="story__year">2019</span>
+									</div>
+								</div>
+								<h2 class="story__title --icon-rt-arrow">
+									Not
+									<span>Humble</span>
+								</h2>
+							</a>
+						</div>
+					</div>
+				</section>
+				<section class="studio">
+					<div class="studio__container">
+						<div class="studio__description">
+							<h2 class="studio__title" data-fls-watcher="" data-fls-watcher-once="">
+								Furrow is an integrated, full-service creative studio offering video production, creative development,
+               and
+               post-production services.
+							</h2>
+							<p class="studio__text" data-fls-watcher="" data-fls-watcher-once="">
+								Everybody’s got a story. And we don’t stop until we’ve uncovered what makes yours worth telling. Whether
+               it’s working
+               directly with you, an agency partner, or putting the finishing touches on something special, we’re ready
+               to dig in and
+               get our hands dirty—are you?
+							</p>
+						</div>
+						<div class="studio__services services">
+							<div class="services__label" data-fls-watcher="" data-fls-watcher-once="">Services</div>
+							<div class="services__spollers spollers" data-fls-spollers="" data-fls-spollers-one="" data-fls-watcher="" data-fls-watcher-once="">
+								<details class="spollers__item">
+									<summary class="spollers__title">Pre-Production</summary>
+									<div class="spollers__body">
+										<ul>
+											<li>Writing</li>
+											<li>Creative Development</li>
+											<li>Storyboards</li>
+											<li>Art Direction</li>
+											<li>Creative Direction</li>
+											<li>Location Scouting</li>
+											<li>Casting</li>
+										</ul>
+									</div>
+								</details>
+								<details class="spollers__item">
+									<summary class="spollers__title">Video Production</summary>
+									<div class="spollers__body">
+										<ul>
+											<li>Principle Photography</li>
+											<li>Production Management</li>
+											<li>Crew</li>
+											<li>Dailies</li>
+											<li>LTO-Archiving</li>
+										</ul>
+									</div>
+								</details>
+								<details class="spollers__item">
+									<summary class="spollers__title">Post-Production</summary>
+									<div class="spollers__body">
+										<ul>
+											<li>Editing</li>
+											<li>Color Grading</li>
+											<li>Visual Effects</li>
+											<li>Sound Design</li>
+											<li>Final Delivery</li>
+										</ul>
+									</div>
+								</details>
+								<details class="spollers__item">
+									<summary class="spollers__title">Audio Post-Production</summary>
+									<div class="spollers__body">
+										<ul>
+											<li>Audio Mixing</li>
+											<li>Sound Design</li>
+											<li>Music Composition</li>
+											<li>Voice Over</li>
+											<li>Final Delivery</li>
+										</ul>
+									</div>
+								</details>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer" data-fls-footer="">
+				<div class="footer__container">
+					<div class="footer__col">
+						<div class="footer__contacts contacts" data-fls-watcher="" data-fls-watcher-once="">
+							<a class="contacts__phone" href="tel:+19024170634">+1.902.417.0634</a>
+							<a class="contacts__email" href="mailto:info@furrow.studio">info@furrow.studio</a>
+						</div>
+					</div>
+					<div class="footer__col">
+						<address class="footer__address address" data-fls-watcher="" data-fls-watcher-once="">
+							<span class="address__line">15 Camburhill Ct Unit C</span>
+							<span class="address__line">Charlottetown, PE C1E 0E2</span>
+						</address>
+					</div>
+					<div class="footer__col">
+						<ul class="footer__socials socials" aria-label="Social Media Links" data-fls-watcher="" data-fls-watcher-once="">
+							<li class="socials__item">
+								<a class="socials__link --icon-instagram sticky-item" href="#" aria-label="Instagram">
+									<span class="visually-hidden">Instagram</span>
+								</a>
+							</li>
+							<li class="socials__item">
+								<a class="socials__link --icon-facebook sticky-item" href="#" aria-label="Facebook">
+									<span class="visually-hidden">Facebook</span>
+								</a>
+							</li>
+							<li class="socials__item">
+								<a class="socials__link --icon-dribbble sticky-item" href="#" aria-label="Dribbble">
+									<span class="visually-hidden">Dribbble</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
